@@ -18,9 +18,5 @@ let package = Package(
         .target(
             name: "ProtocolComponents"
         ),
-        .testTarget(
-            name: "ProtocolComponentsTests",
-            dependencies: ["ProtocolComponents"]
-        ),
     ]
 )
